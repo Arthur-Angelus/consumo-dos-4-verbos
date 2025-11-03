@@ -71,7 +71,7 @@ const novoContato = {
         "cidade": "Niteroi"
 }
 
-criarContato(novoContato)
-atualizarContato(novoContato)
-deletarContato()
 lerContatos()
+criarContato(novoContato)
+atualizarContato(4, novoContato)
+deletarContato()
